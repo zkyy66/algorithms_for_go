@@ -3,6 +3,7 @@
  * @Name 283-moveZeros
  * @VariableName
 https://leetcode.cn/problems/move-zeroes/solution/pei-yang-suan-fa-si-wei-cong-bao-li-ceng-c24w/
+https://leetcode.cn/problems/move-zeroes/solution/wo-de-fang-fa-bi-guan-fang-jie-fa-geng-j-kdac/
 **/
 package array_code
 
