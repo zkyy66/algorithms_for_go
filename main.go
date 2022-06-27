@@ -21,4 +21,6 @@ func main() {
 	nums := []int{1, 2, 2}
 	fmt.Println(array_code.RemoveDuplicates(nums))
 	fmt.Println(array_code.RemoveDuTwo(nums))
+	a := []int{0, 1, 2, 0, 4, 5, 6}
+	fmt.Println(array_code.MoveZerosTwo(a))
 }
