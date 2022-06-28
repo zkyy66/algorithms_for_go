@@ -2,6 +2,7 @@ package main
 
 import (
 	"algorithms_for_go/array_code"
+	"algorithms_for_go/string_code"
 	"fmt"
 )
 
@@ -23,4 +24,8 @@ func main() {
 	fmt.Println(array_code.RemoveDuTwo(nums))
 	a := []int{0, 1, 2, 0, 4, 5, 6}
 	fmt.Println(array_code.MoveZerosTwo(a))
+	fmt.Println("844##########")
+	s := "ab#c"
+	t := "ab#c"
+	fmt.Println(string_code.BackspaceCompare(s, t))
 }
