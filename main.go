@@ -28,4 +28,7 @@ func main() {
 	s := "ab#c"
 	t := "ab#c"
 	fmt.Println(string_code.BackspaceCompare(s, t))
+	fmt.Println("977")
+
+	fmt.Println(array_code.SortedSquares([]int{-4, -1, 0, 3, 10}))
 }
