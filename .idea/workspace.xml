@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="55b4e310-f452-459e-a732-c5cafbb96b20" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/array_code/209-minimumSizeSubarraySum.go" afterDir="false" />
+    <list default="true" id="55b4e310-f452-459e-a732-c5cafbb96b20" name="Changes" comment="209.长度最小的子数组">
+      <change afterPath="$PROJECT_DIR$/array_code/76-windowSubString.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/array_code/209-minimumSizeSubarraySum.go" beforeDir="false" afterPath="$PROJECT_DIR$/array_code/209-minimumSizeSubarraySum.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,12 +55,17 @@
     <configuration name="go build algorithms_for_go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="algorithms_for_go" />
       <working_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
+      <kind value="FILE" />
       <package value="algorithms_for_go" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$/main.go" />
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go 构建.go build algorithms_for_go" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TypeScriptGeneratedFilesManager">
@@ -75,6 +81,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="209.长度最小的子数组" />
+    <option name="LAST_COMMIT_MESSAGE" value="209.长度最小的子数组" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
