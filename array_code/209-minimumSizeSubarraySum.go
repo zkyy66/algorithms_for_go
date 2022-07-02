@@ -7,6 +7,7 @@
 //窗口就是 满足其和 ≥ s 的长度最小的 连续 子数组
 //窗口的起始位置如何移动：如果当前窗口的值大于s了，窗口就要向前移动了（也就是该缩小了）。
 //窗口的结束位置如何移动：窗口的结束位置就是遍历数组的指针，窗口的起始位置设置为数组的起始位置就可以了。
+//https://programmercarl.com/%E6%95%B0%E7%BB%84%E6%80%BB%E7%BB%93%E7%AF%87.html#%E5%8F%8C%E6%8C%87%E9%92%88%E6%B3%95
 package array_code
 
 func minSubArrayLen(nums []int, target int) int {
