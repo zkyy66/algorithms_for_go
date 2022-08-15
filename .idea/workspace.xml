@@ -53,7 +53,7 @@
     <configuration name="go build algorithms_for_go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="algorithms_for_go" />
       <working_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
+      <kind value="FILE" />
       <package value="algorithms_for_go" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$/main.go" />
@@ -61,7 +61,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build algorithms_for_go" />
+        <item itemvalue="Go 构建.go build algorithms_for_go" />
       </list>
     </recent_temporary>
   </component>
@@ -79,6 +79,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="209.长度最小的子数组" />
+    <option name="LAST_COMMIT_MESSAGE" value="209.长度最小的子数组" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
