@@ -1,17 +1,7 @@
 package string_code
 
-import "strings"
-
-// versionOne
-func reverseWordsOne(s string) string {
-	t := strings.Fields(s)
-	for i := 0; i < len(t)/2; i++ {
-		t[i], t[len(t)-1-i] = t[len(t)-1-i], t[i]
-	}
-	newStr := strings.Join(t, " ")
-	return newStr
-}
-func reverseWordsTwo(s string) string {
+// 同151一样
+func reverseMessage(s string) string {
 	slowIndex, fastIndex := 0, 0
 	b := []byte(s)
 	for len(b) > 0 && fastIndex < len(b) && b[fastIndex] == ' ' {
@@ -34,7 +24,6 @@ func reverseWordsTwo(s string) string {
 	for i < len(b) {
 		j := i
 		for ; j < len(b) && b[j] != ' '; j++ {
-
 		}
 		reverse(&b, i, j-1)
 		i = j
@@ -42,14 +31,11 @@ func reverseWordsTwo(s string) string {
 	}
 	return string(b)
 }
+
 func reverse(b *[]byte, left, right int) {
 	for left < right {
 		(*b)[left], (*b)[right] = (*b)[right], (*b)[left]
 		left++
 		right--
 	}
-}
-func main() {
-	reverseWordsOne("yaoyuan")
-	reverseWordsTwo("yaoyuan")
 }
