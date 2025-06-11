@@ -19,23 +19,31 @@ func reverseMessage(s string) string {
 	} else {
 		b = b[:slowIndex]
 	}
-	reverse(&b, 0, len(b)-1)
+	reverse181(&b, 0, len(b)-1)
 	i := 0
 	for i < len(b) {
 		j := i
 		for ; j < len(b) && b[j] != ' '; j++ {
 		}
-		reverse(&b, i, j-1)
+		reverse181(&b, i, j-1)
 		i = j
 		i++
 	}
 	return string(b)
 }
 
-func reverse(b *[]byte, left, right int) {
+func reverse181(b *[]byte, left, right int) {
 	for left < right {
 		(*b)[left], (*b)[right] = (*b)[right], (*b)[left]
 		left++
 		right--
 	}
+}
+
+func ReverseString(s string) string {
+	r := []rune(s)
+	for i, j := 0, len(r)-1; i < len(r)/2; i, j = i+1, j-1 {
+		r[i], r[j] = r[j], r[i]
+	}
+	return string(r)
 }

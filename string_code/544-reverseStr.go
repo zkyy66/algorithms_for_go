@@ -7,15 +7,15 @@ func reverseStr(s string, k int) string {
 		// 1. 每隔 2k 个字符的前 k 个字符进行反转
 		// 2. 剩余字符小于 2k 但大于或等于 k 个，则反转前 k 个字符
 		if i+k <= length {
-			reverse(ss[i : i+k])
+			reverse544(ss[i : i+k])
 		} else {
-			reverse(ss[i:length])
+			reverse544(ss[i:length])
 		}
 	}
 	return string(ss)
 }
 
-func reverse(b []byte) {
+func reverse544(b []byte) {
 	left := 0
 	right := len(b) - 1
 	for left < right {

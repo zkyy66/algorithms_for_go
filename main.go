@@ -17,18 +17,22 @@ func main() {
 	//fmt.Printf("结果：%d\n", resTwo)
 	//fmt.Println("35:搜索插入位置")
 	//fmt.Printf("结果：%d\n", array_code.SearchInsertion(binary_list, binary_target))
-
-	fmt.Println("26\n")
-	nums := []int{1, 2, 2}
-	fmt.Println(array_code.RemoveDuplicates(nums))
-	fmt.Println(array_code.RemoveDuTwo(nums))
-	a := []int{0, 1, 2, 0, 4, 5, 6}
-	fmt.Println(array_code.MoveZerosTwo(a))
-	fmt.Println("844##########")
-	s := "ab#c"
-	t := "ab#c"
-	fmt.Println(string_code.BackspaceCompare(s, t))
-	fmt.Println("977")
-
+	
+	//fmt.Println("26\n")
+	//nums := []int{1, 2, 2}
+	//fmt.Println(array_code.RemoveDuplicates(nums))
+	//fmt.Println(array_code.RemoveDuTwo(nums))
+	//a := []int{0, 1, 2, 0, 4, 5, 6}
+	//fmt.Println(array_code.MoveZerosTwo(a))
+	//fmt.Println("844##########")
+	//s := "ab#c"
+	//t := "ab#c"
+	//fmt.Println(string_code.BackspaceCompare(s, t))
+	//fmt.Println("977")
+	//
 	fmt.Println(array_code.SortedSquares([]int{-4, -1, 0, 3, 10}))
+	fmt.Println("好未来算法题：反转单词")
+	howStr := "how are you ?"
+	res := string_code.ReverseStringWord(howStr)
+	fmt.Println(res)
 }

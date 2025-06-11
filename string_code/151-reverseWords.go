@@ -29,20 +29,20 @@ func reverseWordsTwo(s string) string {
 	} else {
 		b = b[:slowIndex]
 	}
-	reverse(&b, 0, len(b)-1)
+	reverse151(&b, 0, len(b)-1)
 	i := 0
 	for i < len(b) {
 		j := i
 		for ; j < len(b) && b[j] != ' '; j++ {
-
+		
 		}
-		reverse(&b, i, j-1)
+		reverse151(&b, i, j-1)
 		i = j
 		i++
 	}
 	return string(b)
 }
-func reverse(b *[]byte, left, right int) {
+func reverse151(b *[]byte, left, right int) {
 	for left < right {
 		(*b)[left], (*b)[right] = (*b)[right], (*b)[left]
 		left++
