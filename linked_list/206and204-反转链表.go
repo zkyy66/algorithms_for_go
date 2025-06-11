@@ -21,14 +21,14 @@ func reverseList(head *ListNode) *ListNode {
 	head.Next = nil
 	return root
 }
-func reverseList204(head *ListNode) *ListNode {
+func reverseListLCR204(head *ListNode) *ListNode {
 	if head == nil {
 		return head
 	}
 	if head.Next == nil {
 		return head
 	}
-	root := reverseList204(head.Next)
+	root := reverseListLCR204(head.Next)
 	head.Next.Next = head
 	head.Next = nil
 	return root

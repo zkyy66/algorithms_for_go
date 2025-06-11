@@ -5,13 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="55b4e310-f452-459e-a732-c5cafbb96b20" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/linked_list/206and204-反转链表.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/linked_list/21-合并两个有序链表.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/linked_list/92-反转列表II.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/linked_list/ListNode.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/array_code/26-removeDuplicates.go" beforeDir="false" afterPath="$PROJECT_DIR$/array_code/26-removeDuplicates.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
