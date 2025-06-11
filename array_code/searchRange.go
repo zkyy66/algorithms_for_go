@@ -3,7 +3,7 @@ package array_code
 import "sort"
 
 // https://leetcode.cn/problems/find-first-and-last-position-of-element-in-sorted-array/
-func searchRange(nums []int, target int) []int {
+func searchRangeArr(nums []int, target int) []int {
 	leftBoundary := leftBoundary(nums, target)
 	rightBoundary := rightBoundary(nums, target)
 	if leftBoundary == -2 || rightBoundary == -2 {
@@ -49,7 +49,7 @@ func rightBoundary(nums []int, target int) int {
 	return elementOffset
 }
 
-func searchRangeS(nums []int, target int) []int {
+func searchRangeSs(nums []int, target int) []int {
 	leftmost := sort.SearchInts(nums, target)
 	if leftmost == len(nums) || nums[leftmost] != target {
 		return []int{-1, -1}

@@ -2,7 +2,7 @@ package array_code
 
 // 69. x 的平方根
 // 二分查找
-func mySqrt(x int) int {
+func mySqrt69(x int) int {
 	left := 0
 	right := x
 	res := -1

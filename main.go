@@ -1,6 +1,7 @@
 package main
 
 import (
+	"algorithms_for_go/array_code"
 	"algorithms_for_go/string_code"
 	"fmt"
 )
@@ -17,10 +18,12 @@ func main() {
 	//fmt.Println("35:搜索插入位置")
 	//fmt.Printf("结果：%d\n", array_code.SearchInsertion(binary_list, binary_target))
 	
-	//fmt.Println("26\n")
-	//nums := []int{1, 2, 2}
-	//fmt.Println(array_code.RemoveDuplicates(nums))
-	//fmt.Println(array_code.RemoveDuTwo(nums))
+	fmt.Println("26去重")
+	nums := []int{1, 2, 2, 3, 3, 4, 4} //1,2,3,4
+	fmt.Println("One:", array_code.RemoveDuplicates(nums))
+	//fmt.Println("Two:", array_code.RemoveDuTwo(nums))
+	num, arrRes := array_code.RemoveDuThree(nums) //留下思考
+	fmt.Println("Three:", num, arrRes)
 	//a := []int{0, 1, 2, 0, 4, 5, 6}
 	//fmt.Println(array_code.MoveZerosTwo(a))
 	//fmt.Println("844##########")

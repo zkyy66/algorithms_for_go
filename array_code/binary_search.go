@@ -49,7 +49,7 @@ func BinarySearchVersionTwo(nums []int, target int) int {
 //	return -1
 //}
 
-func Demo(nums []int, target int) int {
+func DemoBin(nums []int, target int) int {
 	left := 0
 	right := len(nums)
 	for left <= right {

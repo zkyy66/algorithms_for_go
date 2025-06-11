@@ -5,8 +5,8 @@ import "sort"
 
 //https://leetcode.cn/problems/find-first-and-last-position-of-element-in-sorted-array/
 func searchRange(nums []int, target int) []int {
-	leftBoundary := leftBoundary(nums, target)
-	rightBoundary := rightBoundary(nums, target)
+	leftBoundary := leftBoundary34(nums, target)
+	rightBoundary := rightBoundary34(nums, target)
 	if leftBoundary == -2 || rightBoundary == -2 {
 		return []int{-1, -1}
 	}
@@ -17,7 +17,7 @@ func searchRange(nums []int, target int) []int {
 }
 
 //确定左边界
-func leftBoundary(nums []int, target int) int {
+func leftBoundary34(nums []int, target int) int {
 	left := 0
 	right := len(nums) - 1
 	elementOffset := -2
@@ -34,7 +34,7 @@ func leftBoundary(nums []int, target int) int {
 }
 
 //确定右边界
-func rightBoundary(nums []int, target int) int {
+func rightBoundary34(nums []int, target int) int {
 	left := 0
 	right := len(nums) - 1
 	elementOffset := -2

@@ -6,8 +6,14 @@
   <component name="ChangeListManager">
     <list default="true" id="55b4e310-f452-459e-a732-c5cafbb96b20" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/array_code/26-removeDuplicates.go" beforeDir="false" afterPath="$PROJECT_DIR$/array_code/26-removeDuplicates.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/array_code/34-searchRange.go" beforeDir="false" afterPath="$PROJECT_DIR$/array_code/34-searchRange.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/array_code/704-binary_search.go" beforeDir="false" afterPath="$PROJECT_DIR$/array_code/704-binary_search.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/array_code/binary_search.go" beforeDir="false" afterPath="$PROJECT_DIR$/array_code/binary_search.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/array_code/mySqrt.go" beforeDir="false" afterPath="$PROJECT_DIR$/array_code/mySqrt.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/array_code/searchRange.go" beforeDir="false" afterPath="$PROJECT_DIR$/array_code/searchRange.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/array_code/search_insertion_location.go" beforeDir="false" afterPath="$PROJECT_DIR$/array_code/search_insertion_location.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/string_code/反转单词.go" beforeDir="false" afterPath="$PROJECT_DIR$/string_code/反转单词.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

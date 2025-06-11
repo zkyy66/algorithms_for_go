@@ -1,7 +1,7 @@
 package array_code
 
 //704
-func BinarySearch(nums []int, target int) int {
+func BinarySearch704(nums []int, target int) int {
 	index := 0
 	numsLength := len(nums) - 1
 	for index <= numsLength {
@@ -17,7 +17,7 @@ func BinarySearch(nums []int, target int) int {
 	return -1
 }
 
-func BinarySearchVersionTwo(nums []int, target int) int {
+func BinarySearchVersionTwo704(nums []int, target int) int {
 	index := 0
 	numsLength := len(nums) - 1
 	for index < numsLength {

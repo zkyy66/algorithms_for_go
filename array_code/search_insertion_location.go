@@ -1,7 +1,7 @@
 package array_code
 
 // 35:搜索插入位置
-func SearchInsertion(nums []int, target int) int {
+func SearchInsertionIn(nums []int, target int) int {
 	left := 0
 	right := len(nums) - 1
 	for left <= right {
