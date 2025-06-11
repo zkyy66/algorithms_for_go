@@ -5,12 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="55b4e310-f452-459e-a732-c5cafbb96b20" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/binary_tree/144-二叉树前序遍历.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/binary_tree/145-二叉树后序遍历.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/binary_tree/94-二叉树中序遍历.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/binary_tree/tree_node.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/binary_tree/二叉树前中后遍历题解.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/binary_tree/144-二叉树前序遍历.go" beforeDir="false" afterPath="$PROJECT_DIR$/binary_tree/144-二叉树前序遍历.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
