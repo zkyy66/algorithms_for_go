@@ -1,7 +1,6 @@
 package main
 
 import (
-	"algorithms_for_go/array_code"
 	"algorithms_for_go/string_code"
 	"fmt"
 )
@@ -30,7 +29,8 @@ func main() {
 	//fmt.Println(string_code.BackspaceCompare(s, t))
 	//fmt.Println("977")
 	//
-	fmt.Println(array_code.SortedSquares([]int{-4, -1, 0, 3, 10}))
+	//fmt.Println(array_code.SortedSquares([]int{-4, -1, 0, 3, 10}))
+	
 	fmt.Println("好未来算法题：反转单词")
 	howStr := "how are you ?"
 	res := string_code.ReverseStringWord(howStr)

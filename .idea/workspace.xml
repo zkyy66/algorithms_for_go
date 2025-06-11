@@ -5,12 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="55b4e310-f452-459e-a732-c5cafbb96b20" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/string_code/反转单词.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/string_code/151-reverseWords.go" beforeDir="false" afterPath="$PROJECT_DIR$/string_code/151-reverseWords.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/string_code/181. 字符串中的单词反转.go" beforeDir="false" afterPath="$PROJECT_DIR$/string_code/181. 字符串中的单词反转.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/string_code/544-reverseStr.go" beforeDir="false" afterPath="$PROJECT_DIR$/string_code/544-reverseStr.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/string_code/反转单词.go" beforeDir="false" afterPath="$PROJECT_DIR$/string_code/反转单词.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
