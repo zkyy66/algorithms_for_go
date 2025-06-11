@@ -20,10 +20,13 @@ func main() {
 	
 	fmt.Println("26去重")
 	nums := []int{1, 2, 2, 3, 3, 4, 4} //1,2,3,4
-	fmt.Println("One:", array_code.RemoveDuplicates(nums))
+	////fmt.Println("One:", array_code.RemoveDuplicates(nums))
 	//fmt.Println("Two:", array_code.RemoveDuTwo(nums))
-	num, arrRes := array_code.RemoveDuThree(nums) //留下思考
-	fmt.Println("Three:", num, arrRes)
+	////num, arrRes := array_code.RemoveDuThree(nums)
+	////fmt.Println("Three:", num, arrRes)
+	i, arra := array_code.Kuaimanzhizhen(nums)
+	fmt.Println("Kuaimanzhizhen:", i, arra)
+	
 	//a := []int{0, 1, 2, 0, 4, 5, 6}
 	//fmt.Println(array_code.MoveZerosTwo(a))
 	//fmt.Println("844##########")

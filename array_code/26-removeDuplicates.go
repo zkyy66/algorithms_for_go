@@ -40,9 +40,9 @@ func RemoveDuTwo(nums []int) int {
 	}
 	index := 0
 	for i := 1; i < l; i++ {
-		if nums[i] != nums[i] {
-			nums[index+1] = nums[i]
+		if nums[i] != nums[index] {
 			index++
+			nums[index] = nums[i]
 		}
 	}
 	return index + 1
@@ -63,6 +63,23 @@ func RemoveDuThree(nums []int) (int, []int) {
 			result = append(result, num)
 		}
 	}
-	
 	return len(result), result
+}
+
+func Kuaimanzhizhen(nums []int) (int, []int) {
+	n := len(nums)
+	if n == 0 {
+		return 0, nil
+	}
+	numArr := []int{1, 2, 2, 3, 3, 4, 4, 5}
+	length := len(numArr)
+	//如果slow默认值为0，那么for循环里面的slow++需要在numArr[slow] = numArr[fast]之前，并且返回值修改为slow+1, numArr[:slow+1]
+	slow := 1
+	for fast := 1; fast < length; fast++ {
+		if numArr[fast] != numArr[fast-1] {
+			numArr[slow] = numArr[fast]
+			slow++
+		}
+	}
+	return slow, numArr[:slow]
 }
