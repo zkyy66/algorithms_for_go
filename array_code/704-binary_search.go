@@ -19,7 +19,7 @@ func BinarySearch704(nums []int, target int) int {
 
 func BinarySearchVersionTwo704(nums []int, target int) int {
 	index := 0
-	numsLength := len(nums) - 1
+	numsLength := len(nums) //len(nums) - 1
 	for index < numsLength {
 		mid := index + (numsLength-index)/2
 		if nums[mid] > target {
@@ -51,9 +51,9 @@ func BinarySearchVersionTwo704(nums []int, target int) int {
 
 func Demo(nums []int, target int) int {
 	left := 0
-	right := len(nums)
+	right := len(nums) - 1
 	for left <= right {
-		mid := (left + right) / 2
+		mid := left + (right-left)/2
 		if nums[mid] == target {
 			return mid
 		} else if nums[mid] > target {
