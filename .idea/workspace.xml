@@ -5,8 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="55b4e310-f452-459e-a732-c5cafbb96b20" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/bingfaxiefile.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/203-removeElements.go" beforeDir="false" afterPath="$PROJECT_DIR$/linked_list/203-removeElements.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/array_code/120-findRepeatDocument.go" beforeDir="false" afterPath="$PROJECT_DIR$/array_code/120-findRepeatDocument.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/array_code/26-removeDuplicates.go" beforeDir="false" afterPath="$PROJECT_DIR$/array_code/26-removeDuplicates.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/array_code/27-removing_elements.go" beforeDir="false" afterPath="$PROJECT_DIR$/array_code/27-removing_elements.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/array_code/34-searchRange.go" beforeDir="false" afterPath="$PROJECT_DIR$/array_code/34-searchRange.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jiaotidayin.go" beforeDir="false" afterPath="$PROJECT_DIR$/jiaotidayin.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

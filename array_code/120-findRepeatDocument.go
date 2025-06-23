@@ -1,5 +1,6 @@
 package array_code
 
+//lcr120 寻找文件副本
 func findRepeatDocumentVersionOne(documents []int) int {
 	if len(documents) <= 0 {
 		return 0

@@ -1,9 +1,4 @@
-package main
-
-type ListNode struct {
-	Val  int
-	Next *ListNode
-}
+package linked_list
 
 func removeElement(head *ListNode, val int) *ListNode {
 	points := &ListNode{}

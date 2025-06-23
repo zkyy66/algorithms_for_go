@@ -16,8 +16,6 @@ func logic() {
 			case <-number:
 				fmt.Println(i)
 				i++
-				fmt.Println(i)
-				i++
 				letter <- true
 				break
 			default:
