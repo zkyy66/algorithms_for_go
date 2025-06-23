@@ -29,3 +29,15 @@ func Reverse1(s string) string {
 	}
 	return strings.Join(words, " ")
 }
+
+func reverseStrings(s string) string {
+	if len(s) == 0 {
+		return ""
+	}
+	strs := []rune(s)
+	l := len(strs)
+	for i := 0; i < l/2; i++ {
+		strs[i], strs[l-i-1] = strs[l-i-1], strs[i]
+	}
+	return string(strs)
+}
