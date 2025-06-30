@@ -5,13 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="55b4e310-f452-459e-a732-c5cafbb96b20" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/monkey.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/203-removeElements.go" beforeDir="false" afterPath="$PROJECT_DIR$/linked_list/203-removeElements.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/array_code/120-findRepeatDocument.go" beforeDir="false" afterPath="$PROJECT_DIR$/array_code/120-findRepeatDocument.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/array_code/26-removeDuplicates.go" beforeDir="false" afterPath="$PROJECT_DIR$/array_code/26-removeDuplicates.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/array_code/27-removing_elements.go" beforeDir="false" afterPath="$PROJECT_DIR$/array_code/27-removing_elements.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/array_code/34-searchRange.go" beforeDir="false" afterPath="$PROJECT_DIR$/array_code/34-searchRange.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiaotidayin.go" beforeDir="false" afterPath="$PROJECT_DIR$/jiaotidayin.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,8 +85,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-gosdk-3b128438d3f6-34ac7aa8f6ab-org.jetbrains.plugins.go.sharedIndexes.bundled-GO-251.23774.430" />
-        <option value="bundled-js-predefined-d6986cc7102b-f27c65a3e318-JavaScript-GO-251.23774.430" />
+        <option value="bundled-gosdk-3b128438d3f6-07d2d2d66b1e-org.jetbrains.plugins.go.sharedIndexes.bundled-GO-251.26927.50" />
+        <option value="bundled-js-predefined-d6986cc7102b-09060db00ec0-JavaScript-GO-251.26927.50" />
       </set>
     </attachedChunks>
   </component>
