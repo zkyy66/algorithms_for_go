@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="55b4e310-f452-459e-a732-c5cafbb96b20" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/monkey.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/一万个数中找出最大的10个数.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/monkey.go" beforeDir="false" afterPath="$PROJECT_DIR$/monkey.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
