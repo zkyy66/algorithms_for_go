@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="55b4e310-f452-459e-a732-c5cafbb96b20" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/一万个数中找出最大的10个数.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/monkey.go" beforeDir="false" afterPath="$PROJECT_DIR$/monkey.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/array_code/162-寻找峰值.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/array_code/1901-寻找峰值 II.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/array_code/2951-找出峰值.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linked_list/142andLCR022-环形列表II.go" beforeDir="false" afterPath="$PROJECT_DIR$/linked_list/142andLCR022-环形列表II.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

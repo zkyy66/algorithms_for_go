@@ -1,3 +1,3 @@
 module algorithms_for_go
 
-go 1.18
+go 1.21

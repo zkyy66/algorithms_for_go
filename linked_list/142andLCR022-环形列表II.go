@@ -39,3 +39,31 @@ func detectCycleForZhiZhen(head *ListNode) *ListNode {
 	}
 	return nil
 }
+
+func EntryNodeOfLoop(pHead *ListNode) *ListNode {
+	if pHead == nil || pHead.Next == nil {
+		return nil
+	}
+	// 快慢指针
+	fast := pHead
+	last := pHead
+	
+	for fast != nil && fast.Next != nil {
+		fast = fast.Next.Next
+		last = last.Next
+		if fast == last {
+			break
+		}
+	}
+	// 第一次相遇
+	if last == nil || fast == nil {
+		// 无环
+		return nil
+	}
+	last = pHead
+	for last != fast {
+		last = last.Next
+		fast = fast.Next
+	}
+	return last
+}
