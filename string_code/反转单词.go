@@ -18,7 +18,7 @@ func ReverseStringWord(s string) string {
 	return strings.Join(words, " ")
 }
 
-//此方法也行
+// 此方法也行
 func Reverse1(s string) string {
 	if len(s) == 0 {
 		return ""

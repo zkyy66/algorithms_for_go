@@ -17,7 +17,8 @@ func testScan() {
 	}
 }
 func main() {
-	testScan()
+	// testScan()
+	fmt.Println(fruits())
 	//fmt.Println("二分查找\n")
 	// binary_list := []int{1}
 	// binary_target := 1
@@ -54,4 +55,58 @@ func main() {
 	// howStr := "how are you ?"
 	// res := string_code.ReverseStringWord(howStr)
 	// fmt.Println(res)
+}
+
+type Fruit struct {
+	Name  string
+	Price float64
+	Qty   int64
+}
+
+func fruits() float64 {
+	// items := []map[string]interface{}{
+	// 	{"name": "apple", "price": 3.5, "qty": 4},
+	// 	{"name": "banana", "price": 2.0, "qty": 6},
+	// 	{"name": "cherry", "price": 5.0, "qty": 2},
+	// }
+
+	var fruit []*Fruit
+	fruit = append(fruit, &Fruit{
+		Name:  "apple",
+		Price: 3.5,
+		Qty:   4,
+	})
+	fruit = append(fruit, &Fruit{
+		Name:  "banana",
+		Price: 2.0,
+		Qty:   6,
+	})
+	fruit = append(fruit, &Fruit{
+		Name:  "cherry",
+		Price: 5.0,
+		Qty:   2,
+	})
+	var res float64
+	for _, v := range fruit {
+		res = jisuanPrice(v.Price, v.Qty)
+	}
+	return res
+	// for _, it := range items {
+	//         if it["qty"].(int) > 3 {
+	//                 t += it["price"].(float64) * float64(it["qty"].(int)) * 0.9
+	//         } else {
+	//                 t += it["price"].(float64) * float64(it["qty"].(int))
+	//         }
+	// }
+
+	// fmt.Println("Total:", t)
+}
+func jisuanPrice(price float64, nums int64) float64 {
+	var t float64 = 0
+	if nums > 3 {
+		t = price * float64(nums) * 0.9
+	} else {
+		t = price * float64(nums)
+	}
+	return t
 }
