@@ -1,6 +1,7 @@
 package main
 
 import (
+	"algorithms_for_go/example_go"
 	"fmt"
 )
 
@@ -18,7 +19,7 @@ func testScan() {
 }
 func main() {
 	// testScan()
-	fmt.Println(fruits())
+	//fmt.Println(fruits())
 	//fmt.Println("二分查找\n")
 	// binary_list := []int{1}
 	// binary_target := 1
@@ -55,6 +56,9 @@ func main() {
 	// howStr := "how are you ?"
 	// res := string_code.ReverseStringWord(howStr)
 	// fmt.Println(res)
+
+	fmt.Println("explam-go 开始\n")
+	example_go.Exindex()
 }
 
 type Fruit struct {

@@ -1,6 +1,6 @@
 package array_code
 
-//移除元素
+// 移除元素
 // 双指针法
 // 双指针法（快慢指针法）： 通过一个快指针和慢指针在一个for循环下完成两个for循环的工作。
 //
@@ -37,4 +37,29 @@ func pointsFun(nums []int, val int) int {
 		}
 	}
 	return res
+}
+
+// 双指针
+func removingElements(nums []int, val int) int {
+	left := 0
+	for _, v := range nums {
+		if v != val {
+			nums[left] = v
+			left++
+		}
+	}
+	return left
+}
+
+func youhuaRemovingElement(nums []int, val int) int {
+	left, right := 0, len(nums)
+	for left < right {
+		if nums[left] == val {
+			nums[left] = nums[right-1]
+			right--
+		} else {
+			left++
+		}
+	}
+	return left
 }
