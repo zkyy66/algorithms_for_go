@@ -13,6 +13,7 @@ func Exindex() {
 	//taoyi
 	x := fooTao()
 	fmt.Println(*x)
+	makeSlice()
 	//taoyi end
 
 	//defer
@@ -136,4 +137,25 @@ func deferSum(a, b int) {
 func f(a, b int) {
 	defer deferSum(a, b)
 	fmt.Println(a, b)
+}
+func exSlice() {
+	slice := []int{0, 1, 2, 3, 4, 5, 6, 7, 8, 9}
+	s1 := slice[2:5]
+	s2 := s1[2:6:7]
+	s2 = append(s2, 100)
+	s2 = append(s2, 200)
+	s1[2] = 300
+	fmt.Println(s1)
+	fmt.Println(s2)
+	fmt.Println(slice)
+}
+func makeSlice() {
+	s := make([]int, 0)
+	fmt.Println(s)
+	s = append(s, 1)
+	fmt.Println(s)
+	s = append(s, []int{2, 3, 4}...)
+	fmt.Println(s)
+	s = append(s, 5, 6, 7)
+	fmt.Println(s)
 }

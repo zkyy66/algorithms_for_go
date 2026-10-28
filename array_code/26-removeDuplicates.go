@@ -16,8 +16,8 @@ package array_code
 //[fast−1],说明 nums[fast] 和之前的元素都不同，因此将 nums[fast] 的值复制到 nums[slow]，然后将 slow 的值加 1，即指向下一个位置。
 //遍历结束之后，从 nums[0] 到 nums[slow−1] 的每个元素都不相同且包含原数组中的每个不同的元素，因此新的长度即为 slow，返回 slow 即可。
 
-//作者：LeetCode-Solution
-//链接：https://leetcode.cn/problems/remove-duplicates-from-sorted-array/solution/shan-chu-pai-xu-shu-zu-zhong-de-zhong-fu-tudo/
+// 作者：LeetCode-Solution
+// 链接：https://leetcode.cn/problems/remove-duplicates-from-sorted-array/solution/shan-chu-pai-xu-shu-zu-zhong-de-zhong-fu-tudo/
 func RemoveDuplicates(nums []int) int {
 	n := len(nums)
 	if n == 0 {
@@ -33,7 +33,7 @@ func RemoveDuplicates(nums []int) int {
 	return slow
 }
 
-//https://leetcode.cn/problems/remove-duplicates-from-sorted-array/solution/gui-zi-mo-tu-jie-shuang-zhi-zhen-duo-yu-9f1hj/
+// https://leetcode.cn/problems/remove-duplicates-from-sorted-array/solution/gui-zi-mo-tu-jie-shuang-zhi-zhen-duo-yu-9f1hj/
 func RemoveDuTwo(nums []int) int {
 	l := len(nums)
 	if l <= 0 {
@@ -57,7 +57,7 @@ func RemoveDuThree(nums []int) (int, []int) {
 	}
 	seen := make(map[int]bool)
 	result := make([]int, 0)
-	
+
 	for _, num := range numARR {
 		if !seen[num] {
 			seen[num] = true
@@ -83,4 +83,18 @@ func Kuaimanzhizhen(nums []int) (int, []int) {
 		}
 	}
 	return slow, numArr[:slow]
+}
+func removeDuplicates(nums []int) int {
+	n := len(nums)
+	if n == 0 {
+		return 0
+	}
+	slow := 1
+	for fast := 1; fast < n; fast++ {
+		if nums[fast] != nums[fast-1] {
+			nums[slow] = nums[fast]
+			slow++
+		}
+	}
+	return slow
 }
